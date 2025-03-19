@@ -11,6 +11,9 @@ miadb getlanguage - language check
 miadb getregion - region check 
 miadb getcarrier
 miadb getsn - serial number check
+miadb   sideload_miui   OTAPACKAGE   ROM.zip
+
+
 miadb format-data ဒါကတော့ factory reset ချတဲ့ command ပါ။
 miadb format-storage
 miadb format-data-storage
