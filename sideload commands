@@ -1,0 +1,25 @@
+Sideload Commands ( vol up + power key)
+=========================================
+
+ယခု Command ကတော့ Xiaomi Devices တွေကို Recovery Mode ကနေ run ပြီး အသုံးပြုနိုင်တဲ့ list တွေပါ... 
+Xiaomi ရဲ့ recovery sideload ကနေ run နိုင်ဖိုအတွက် သီးသန့် adb.exe လိုပါမယ်..l
+miadb getversion - miui version
+miadb getcodebase - android version
+miadb getdevice - model check
+miadb getbranch - branch check
+miadb getlanguage - language check
+miadb getregion - region check 
+miadb getcarrier
+miadb getsn - serial number check
+miadb format-data ဒါကတော့ factory reset ချတဲ့ command ပါ။
+miadb format-storage
+miadb format-data-storage
+miadb wipe-data-storeage
+miadb reboot:bootloader
+miadb reboot:shutdown
+miadb rebootbootloader
+miadb reboot
+shutdown
+wipe-efs
+sideload
+သတိတစ်ခုပြုရမှာက.. ဖုန်းတိုင်းကို factory reset ချလိုရပေမယ့်... account lock တော့ ဖုန်းတိုင်းမပျက်ပါဘူး..
