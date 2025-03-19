@@ -42,3 +42,15 @@ adb shell getprop ro.ril.miui.imei1
 adb shell getprop ro.board.platform
 
 adb shell getprop ro.build.display.id
+
+-----------------------------------------
+
+adb shell pm list packages  -f
+                            -d
+                            -e
+                            -s
+                            -3
+                            -i
+                            -u
+                            
+
