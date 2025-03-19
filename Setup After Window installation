@@ -1,3 +1,32 @@
+
+Window Installation
+-------------------
+1.window.iso file download
+2.rufus download
+3.MBR? GPT? check => diskmgamt.msc =>local C => Right click => Properties => volume
+4.create bootable stick by stick
+5.Enter bios => F2,F10,Ecs => Boot => USB => prorit 1 => F10 => save
+
+Step : 1
+--------
+Folder Create for Dirver Backup
+Run => CMD => Administer 
+#dism /?
+#dism /online /export-driver /destination:C:\Driver
+        <OR>
+#pnputil /export-driver * "C:\Driver"
+
+
+Step : 2
+--------
+Driver Restore
+#pnputil /add-driver "C:\Driver\*.inf" /subdirs /install /reboot
+
+
+
+
+
+
 This Pc ကို Desktop ပေါ်တွင် ခေါ်တင်သောနည်း
 =======================================
 SEARCH BOX => Desktop Theme =>  Desktop icon Setting => check This Pc 
