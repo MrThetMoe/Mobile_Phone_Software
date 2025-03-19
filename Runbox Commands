@@ -1,1 +1,51 @@
-Notepad
+RunBox Command များ (win+R)
+========================
+
+notpad(Notepad ကိုဖွင့်ခြင်း)
+calc (calculator ကိုဖွင့်ခြင်း)
+cmd (command prompt ကိုဖွင့်ခြင်း)
+osk (on screen keyboard ကိုဖွင့်ခြင်း)
+taskmgr (Task manager ကိုဖွင့်ခြင်း)
+devmgmt.msc( Device Management ကိုဖွင့်ခြင်း)
+diskmagmt.msc(Disk Management ကိုဖွင့်ခြင်း)
+compmgmt.msc (Computer Management ကိုဖွင့်ခြင်း)
+winver (Computer တွင်တင်ထားသော window version ကိုကြည့်ခြင်း)
+control (Control Panel ကိုဖွင့်ခြင်း)
+regedit (Registry Editor ကိုဖွင့်ခြင်း)
+dixdiag (Direct X ကိုဖွင့်ခြင်း)
+recent (လတ်တလောဖွင့်ထာသည်များကို ပြန်ကြည့်ခြင်း)
+
+--------------------------------------------
+
+Cmd Commands များ
+===============
+
+Date =နေ့စွဲ
+Time = အချိန်
+Systeminfo = ကွန်ပျူတာတွင်တပ်ဆင်ထားသော အချက်အလက်များကို စစ်ဆေးခြင်း
+color/? = command propဧ။် အရောင်ပြောင်းနိုင်ရန်သုံးသော command
+Shutdown /s /t 00(s) = (သတ်မှတ်စက္ကန့်အတွင်း) စက်ပိတ်ခြင်း
+Shutdown /r /t 00(s) = (သတ်မှတ်စက္ကန့်အတွင်း) စက်ကို restart ချခြင်း
+cls = ( ပေးထားသော command များအားလုံးကို ဖျက်ပစ်ခြင်း)
+mkdir = Folder ဆောက်ခြင်း
+rmdir = Folder ဖျက်ချခြင်း
+
+-------------------------------
+
+Location commands များ
+=====================
+
+%alluserprofile%    ဆော့ဝဲများဧ။် program data များကို ပြသပေးသည်
+%appdata%           ကွန်ပျူတာတွင်တင်ထားသော ဆော့ဝဲ အချက်အလက်များသိမ်းထားသည့်နေရာ
+%comspec%           cmd box တည်ရှိရာနေရာမှာခေါ်ယူအသုံးပြုသည်
+%homepath%          လက်ရှိအသုံးပြုသူဧ။်နေရာကိုပြသပေးသည်
+%programfiles%      software များထည့်သွင်း အသုံးပြုရာနေရာကို ပြသပေးသည်
+%systemdrive%       windows တင်ထားသော drive အားပြသပေးသည်
+%systemroot%        windows တည်ရှိရာ အရင်းအမြစ်ကိုပြသပေးသည်
+%temp%              လက်ရှိ run နေသော software များဧ။် file များထားရာနေရာ
+%username%          အသုံးပြုသူဧ။် နာမည်ကို ပြသပေးသည်
+%userprofile%       အသုံးပြုသူဧ။် profile ကိုပြသပေးသည်
+%windir             windows folder တည်ရှိနေရာကိုပြသပေးသည်
+
+------------------------------------------------------------------
+
