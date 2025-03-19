@@ -1,0 +1,80 @@
+T   KI  CN    XM
+
+T  = ANDROID VERSION
+KI = DEVICE CODE
+CN = ROM / REGION
+XM = NETWORK STATE UNLOCK
+=======================
+  MODEL CHECK 
+  =============
+  1. ADB 
+  2. FASTBOOT
+  3. SIDELOAD
+==============
+MODEL NAME / CODE NAME 
+cactus
+ 
+ MIUI VERSION 
+V14.0.12.0.TKICNXM
+
+BOOTLOADER LOCK / UNLOCK
+
+fastboot => 
+PRODUCT NAME  
+
+BOOTLOADER CHECK 
+1.  fastboot  getvar   unlocked
+2.  fastboot  oem    device-info
+
+==============================
+
+ALL INFO 
+========
+fastboot getvar all
+
+partition preloader = MTK 
+          modemst1 / 2= QUALCOMM
+===============================
+
+
+SLOT COUNT 
+
+fastboot   getvar  slot-count
+
+SLOT = A /  B 
+
+fastboot   getvar   current-slot
+==================================
+
+SLOT CHANGE
+
+fastboot    set_active   SLOT(A/B)
+fastboot    --set-active[=SLOT]  
+
+
+=====================
+BOOTLOADER UNLOCK
+===================
+
+FLASH PARTITION
+==================
+fastboot    flash   partition name     file name 
+=================================================
+
+
+ERASE PARTITION
+=====================
+fastboot      erase    partition name
+
+=========================================
+FACTORY RESET
+==============
+
+fastboot  -w 
+
+================
+
+
+ROM INSTALL 
+
+bat file Run
