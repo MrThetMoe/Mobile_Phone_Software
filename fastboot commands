@@ -34,6 +34,8 @@ fastboot getvar all
 
 partition preloader = MTK 
           modemst1 / 2= QUALCOMM
+
+fastboot getvar hw-revision (cup စစ်တာ)
 ===============================
 
 
@@ -78,3 +80,7 @@ fastboot  -w
 ROM INSTALL 
 
 bat file Run
+
+------------------------
+
+
