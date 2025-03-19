@@ -22,6 +22,17 @@ BOOTLOADER LOCK / UNLOCK
 fastboot => 
 PRODUCT NAME  
 
+Fastboot
+-----------
+Fastboot Mode ကို [Vol_down + Power Key] တွဲနှိပ်၍သော်လည်းကောင်း 'adb reboot bootloader' command ဖြင့်သော်လည်းကောင်း ဝင်နိုင်သည်။
+Fastboot Mode ကို အဓိကအားဖြင့် -> Firmware Install လုပ်ခြင့် နှင့် Phone ၏ Properties တေကို စစ်ဆေးဖို့အတွက်သုံးပြုတယ်
+Fastboot Mode မှာ fastboot command တေဘဲ့ရိုက်လို့ရမှာ ဖြစ်တယ်
+e.g =>  #fastboot devices   (device ချိတ်ဆက်မှုရှိမရှိစစ်ဆေးခြင်း)
+        #fastboot getvar all   (partition တွေကိုစစ်ဆေးခြင်း)
+        #fastboot getvar hw-revision   (CPU စစ်တာ)
+        :OUTPUT> 10000/20000  =>  Qualcomm
+        :OUTPUT>    ca00      =>  MTK
+
 BOOTLOADER CHECK 
 1.  fastboot  getvar   unlocked
 2.  fastboot  oem    device-info
