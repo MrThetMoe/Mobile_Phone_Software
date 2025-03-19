@@ -1,0 +1,34 @@
+ -------
+|  MTK  |
+ -------
+
+Bootloader Lock
+===============
+1.BROOM Mode => 1. Cust Method => firmware => cust.img(Replace)
+                2. Blocked global roam => Firmware download (flash file run)
+
+
+
+Bootloader Unlock
+=================
+1.Fastboot Firmware Download => 1.fastboot mode => flash all.bat run
+                                2.BROOM mode => sp flash tool => scatter.txt
+
+
+
+ ----------
+| Qualcomm |
+ ----------
+
+Bootloader Lock
+===============
+1.EDL Mode => 1. Cust Method => firmware => cust.img(Replace)
+              2. Blocked global roam => Firmware download (flash file run)
+
+
+
+
+Bootloader Unlock
+=================
+1.Fastboot Firmware Download => 1.fastboot mode => flash all.bat run
+                                2.EDL mode => mi flash tool => rawprogram0.xml
