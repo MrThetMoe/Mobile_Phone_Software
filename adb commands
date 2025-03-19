@@ -17,6 +17,7 @@ adb shell dumpsys battery  ( Phone Battery Info )
 adb shell 
 ls ( list ကြည့် )
 cd ( Change Directory )
+adb get-state
 
 
 adb shell getprop ro.product.manufacturer 
